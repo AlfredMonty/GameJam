@@ -8,11 +8,7 @@ public class PlayerController : MonoBehaviour
     public Rigidbody2D rBody; 
     [SerializeField] public float mSpeed = 0.75f; 
     public InputAction pMovement;
-    Vector2 mDirection = Vector2.zero; 
-    // Start is called before the first frame update
-    void Start() {
-        
-    }
+    Vector2 mDirection = Vector2.zero;
 
     private void OnEnable() {
         pMovement.Enable();

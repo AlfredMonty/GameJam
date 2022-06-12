@@ -2050,7 +2050,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2058,6 +2058,48 @@ TextureImporter:
       bones: []
       spriteID: 97fcd8ed5dcb16b42be730c4431ef4f4
       internalID: 498338094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chest_0
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4deeea5a43c21d244815166476297a0f
+      internalID: -1762875325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chest_1
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 793a2ad1f529be849aca7bb5b5fb9dac
+      internalID: -1324389838
       vertices: []
       indices: 
       edges: []
@@ -2074,6 +2116,7 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       ground_7: 1739810376
+      chest_0: -1762875325
       stairs_0: 512828413
       Atlas_18: -12261978
       torch_0: 230762826
@@ -2091,6 +2134,7 @@ TextureImporter:
       pillarWall_0: 1266882569
       Atlas_7: 548973088
       ground: 498338094
+      chest_1: -1324389838
       Atlas_35: 745346525
       ground_4: 1078931394
       Atlas_4: 1617336277
