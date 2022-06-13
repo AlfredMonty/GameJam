@@ -20,13 +20,13 @@ public class Collidables : MonoBehaviour
         {
             if (hits[i] == null)
                 continue;
-            onCollide(hits[i]);
+            OnCollide(hits[i]);
             hits[i] = null;
             
         }
     }
 
-    protected virtual void onCollide(Collider2D coll) {
+    protected virtual void OnCollide(Collider2D coll) {
         Debug.Log(coll.name); 
     }
 }
