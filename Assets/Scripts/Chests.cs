@@ -17,11 +17,12 @@ public class Chests : Collectables
             collected = true; 
             GetComponent<SpriteRenderer>().sprite = emptyChest; 
             pesosGiven = Random.Range(randMin, randMax);
-            print("Granted " + pesosGiven + " peso(s) | " + "Owned " + pesos + " peso(s)");
-            pesos = pesos + pesosGiven;
+            GameManager.instance.ShowText("+" + pesosGiven + " pesos!", 25, Color.yellow, transform.position, Vector3.up * 25, 1.5f); 
+            // print("Granted " + pesosGiven + " peso(s) | " + "Owned " + pesos + " peso(s)");
+            // pesos = pesos + pesosGiven;
         }
         else {
-            print("The chest is empty | " + "Owned " + pesos + " peso(s)");
+            // print("The chest is empty | " + "Owned " + pesos + " peso(s)");
         }
           
     }
